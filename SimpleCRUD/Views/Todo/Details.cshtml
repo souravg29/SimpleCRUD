@@ -1,0 +1,16 @@
+﻿@*
+	For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model SimpleCRUD.Models.Todo
+@{
+	ViewData["Title"] = "Todo Detail Page";
+}
+
+<h1>Todo Details</h1>
+
+<h1>Todo Title: @Model.Title</h1>
+<h1>Todo Content: @Model.Content</h1>
+<h1>Todo CreatedAt: @Model.CreatedAt</h1>
+<h1>Todo UpdatedAt @Model.UpdateAt</h1>
